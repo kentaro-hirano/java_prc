@@ -1,7 +1,7 @@
 public class Main{
     public static void main(String[] args){
-        String str = "";
-        str.trim();
-        System.out.println(str.equals("") + ":" + str.isEmpty());
+       Sample s = new Sample();
+       int data = 1;
+       s.method(data);
     }
 }   
