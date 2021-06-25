@@ -1,9 +1,9 @@
 
 public class Sample {
-   // public void method(Short a){
-   //    System.out.println("A");
-   // }
-   public void method(int s){
-      System.out.println("B");
+   String name;
+   int price;
+   public Sample (String name, int price) {
+      this.name = name;
+      this.price = price;
    }
 }

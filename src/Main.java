@@ -1,10 +1,19 @@
 public class Main {
-  public static void main(String[] args) {
-    int[] array = {1, 2, 3};
-    for (int num : array) {
-      int i = 1;
-			// while (i <= num);	
-			System.out.println(i++);
-    }       
-  }
-}   						
+  public static void main(String[] args) { 
+    int num  = 1;
+    x:
+    for (int i = 0; i < 3; i++) {
+      y:
+      for (int j = 0; j < 5; j++) {
+        if (j == 1) {
+          continue;
+        }
+        if (j == 3) {
+          break x;
+        }
+        num += 1;
+      }
+    }
+    System.out.println(num);
+  } 
+}
