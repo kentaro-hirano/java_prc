@@ -1,21 +1,23 @@
-import java.util.ArrayList;
-
 public class Main { 
+  // static double total;
+  // int a = 2, b = 3;
+  static int huga = 0;
+  static double hoge = 0.0;
   public static void main(String[] args) {
-    ArrayList<String> list = new ArrayList<>();
-    list.add("A");
-    list.add("B");
-    list.add("C");
-    // list.add("D");
-    // list.add("E");
-    for(String str : list) {
-      if ("A".equals(str)) {
-        list.remove(str);
-      } 
-    }
-
-    for (String str : list) {
-      System.out.println(str);
-    }
+    // int x, a, b;
+    // // int e;
+    // System.out.println(total);
+    // if (total == 0) {
+    //   a = 3;
+    //   b = 4;
+    //   x = 5;
+    //   // e = 4;
+    //   System.out.println("hoge");
+    // }
+    // System.out.println(a);
+    // total = x * a * b;
+    // System.out.println(total);
+    System.out.println(hoge == 0);
+    
   }
 }
